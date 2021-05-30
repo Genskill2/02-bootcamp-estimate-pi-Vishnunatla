@@ -17,7 +17,7 @@ def monte_carlo(n):
         if r<=1:
             c=c+1
     p=4*(c/n)
-    retun p
+    return p
 
 class TestWallis(unittest.TestCase):
     def test_low_iters(self):
