@@ -11,8 +11,8 @@ def wallis(n):
 def monte_carlo(n):
     c=0
     for i in range(n):
-        x=random.random()
-        y=random.random()
+        x=random.uniform(-1,1)
+        y=random.uniform(-1,1)
         r=x**2+y**2
         if r<=1:
             c=c+1
